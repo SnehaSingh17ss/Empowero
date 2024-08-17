@@ -20,7 +20,7 @@ main {
 
 /* Empowero Logo (Image) Styling */
 .empowero-logo {
-  max-width: 400px; /* Adjust size as needed */
+  max-width: 350px; /* Adjust size as needed */
   height: auto;
 }
 
@@ -32,8 +32,8 @@ df-messenger {
   --df-messenger-header-title: #ffffff;
   --df-messenger-header-background-color: #004B87;
   --df-messenger-user-message: #f1f1f1;
-  width: 300px; /* Adjust width */
-  height: 400px; /* Adjust height */
+  width: 270px; /* Adjust width */
+  height: 380px; /* Adjust height */
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -41,7 +41,7 @@ df-messenger {
 /* Responsive Design Adjustments */
 @media (max-width: 768px) {
   df-messenger {
-    width: 80%; /* Adjust width for smaller screens */
+    width: 75%; /* Adjust width for smaller screens */
     height: 500px; /* Adjust height for smaller screens */
     bottom: 10px;
     right: 10px;

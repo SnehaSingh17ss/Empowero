@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empowero Bot</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.png" type="image/png">
+
+  <!-- Load Dialogflow Messenger Script -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+  <!-- Centered Empowero Logo -->
+  <main>
+    <img src="img/Empowero-bot-logo.png" alt="Empowero Bot Logo" class="empowero-logo">
+  </main>
+
+  <!-- Dialogflow Messenger Component -->
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Empowero"
+    agent-id="97a49eed-a9d6-4021-8135-58dd1e088302"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>

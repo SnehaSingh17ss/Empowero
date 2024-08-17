@@ -38,3 +38,19 @@ df-messenger {
   bottom: 20px;
   right: 20px;
 }
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  df-messenger {
+    width: 90%; /* Adjust width for smaller screens */
+    height: 500px; /* Adjust height for smaller screens */
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  df-messenger {
+    width: 300px; /* Width for larger screens */
+    height: 400px; /* Height for larger screens */
+  }
+}
